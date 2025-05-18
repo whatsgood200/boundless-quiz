@@ -1,0 +1,102 @@
+[
+  {
+    "question": "According to the abstract, what is the primary design goal of the Boundless protocol?",
+    "options": ["a) To replace existing cloud computing services.", "b) To scale ZK-powered verifiable compute for every chain.", "c) To create a new blockchain layer for general computation.", "d) To facilitate peer-to-peer file sharing using ZKPs."],
+    "answer": "b"
+  },
+  {
+    "question": "In the Boundless protocol, operators of hardware like GPUs who compete for zero knowledge proof requests are called:",
+    "options": ["a) Requestors", "b) Validators", "c) Provers", "d) Arbiters"],
+    "answer": "c"
+  },
+  {
+    "question": "The sources mention three main contributions of the Boundless protocol. Which of the following is not listed as a contribution?",
+    "options": ["a) Proof of Verifiable Work", "b) The Financialization of Compute", "c) Decentralized Governance", "d) Boundless (as a practical system)"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the primary mechanism Boundless uses to incentivize proving via a token reward issued to provers?",
+    "options": ["a) Proof of Stake", "b) Proof of History", "c) Proof of Work", "d) Proof of Verifiable Work"],
+    "answer": "d"
+  },
+  {
+    "question": "Boundless treats ZK-powered verifiable compute as a commodity. How can this commodity be traded in the Boundless marketplace?",
+    "options": ["a) Only directly in the spot market.", "b) Only indirectly via service agreements.", "c) Either directly (in the spot market) or indirectly (via service agreements).", "d) Via a traditional order book exchange."],
+    "answer": "c"
+  },
+  {
+    "question": "According to the sources, why is ZK-powered verifiable compute well suited for use in trustless contexts?",
+    "options": ["a) Because it relies on trusted third parties.", "b) Because all relevant information falls within the realm of objective truth with bounded uncertainty.", "c) Because disputes are resolved through intersubjective truth.", "d) Because it requires a trusted setup."],
+    "answer": "b"
+  },
+  {
+    "question": "What specific mechanism in Boundless allows for the trustless and secure metering of the amount of compute that went into a particular task?",
+    "options": ["a) Smart contracts", "b) Data availability layers", "c) Proof of verifiable work", "d) The gas market"],
+    "answer": "c"
+  },
+  {
+    "question": "In the Boundless spot market, what type of auction is used for price discovery?",
+    "options": ["a) Standard English auction", "b) Sealed-bid auction", "c) Reverse Dutch auction", "d) Vickrey auction"],
+    "answer": "c"
+  },
+  {
+    "question": "In the reverse Dutch auction used in Boundless, how does the price typically behave over time if a request is not fulfilled?",
+    "options": ["a) It decreases.", "b) It remains constant.", "c) It increases programmatically.", "d) It is determined by competitive bids from provers."],
+    "answer": "a"
+  },
+  {
+    "question": "According to the sources, what is one benefit of using a reverse Dutch auction compared to an \"ordinary\" auction in the Boundless market?",
+    "options": ["a) It requires provers to advertise their prices and capacity in a generic manner.", "b) It results in a simpler protocol and avoids challenges associated with provers advertising prices trustlessly.", "c) It allows the requestor to choose the best offer from multiple simultaneous bids.", "d) It ensures the highest possible price for the prover."],
+    "answer": "b"
+  },
+  {
+    "question": "When a prover locks a request in the Boundless spot market, what exclusive right does it grant the prover?",
+    "options": ["a) The right to fulfill the request before the deadline.", "b) The right to receive a guaranteed maximum price.", "c) The exclusive right to fulfill the request.", "d) The right to sell the request to another prover."],
+    "answer": "c"
+  },
+  {
+    "question": "If a prover locks a request but fails to fulfill it before the given deadline, what happens according to the sources?",
+    "options": ["a) The prover receives a warning.", "b) The prover will lose their staked amount.", "c) The request is automatically reassigned to another prover.", "d) The requestor is charged an additional fee."],
+    "answer": "b"
+  },
+  {
+    "question": "When a prover fulfills a request in Boundless, how is the prover's fee determined?",
+    "options": ["a) It is a fixed price set by the requestor.", "b) It is determined by the market's take rate applied to the base cost.", "c) It is equal to the request's price minus the market's fee, with the price determined at the time of lock or fulfillment.", "d) It is negotiated directly between the prover and requestor after fulfillment."],
+    "answer": "c"
+  },
+  {
+    "question": "What mechanism does Boundless utilize to address the potential for a monopoly to form among provers?",
+    "options": ["a) A centralized authority that regulates prover numbers.", "b) High barriers to entry for new provers.", "c) Reliance on market forces and low barriers to entry for others to step in and undercut prices.", "d) Requiring provers to hold a large amount of the native token."],
+    "answer": "c"
+  },
+  {
+    "question": "What is the native token of the Boundless Marketplace called?",
+    "options": ["a) ETH", "b) ERC20", "c) ZKP", "d) $ZKC"],
+    "answer": "d"
+  },
+  {
+    "question": "How are newly minted $ZKC tokens distributed to provers as part of the proof of verifiable work reward mechanism?",
+    "options": ["a) Equally among all active provers.", "b) In proportion to the amount of $ZKC they have staked.", "c) In proportion to their contributions to the market, based on metrics like value delivered (fees) and work performed (cycles).", "d) Based on a lottery system."],
+    "answer": "c"
+  },
+  {
+    "question": "The ability to track the number of cycles proven, which is critical for the proof of verifiable work reward mechanism, depends on a unique feature of which technology mentioned in the sources?",
+    "options": ["a) Ethereum (ETH)", "b) Circom", "c) RISC Zero's zkVM", "d) Zcash"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the purpose of the Vault in the Boundless marketplace?",
+    "options": ["a) To store fulfilled proofs.", "b) To act as a bridge between different blockchains.", "c) To allow $ZKC holders to lock up tokens, earn points, and extract collected fees.", "d) To facilitate peer-to-peer token trading."],
+    "answer": "c"
+  },
+  {
+    "question": "How can an entity who locks up $ZKC tokens in the Vault access the fees collected by the market?",
+    "options": ["a) By directly withdrawing fees based on the amount of tokens locked.", "b) By selling their locked tokens to other users.", "c) By burning the non-transferable points they earn while tokens are locked.", "d) Fees are automatically distributed proportional to locked tokens."],
+    "answer": "c"
+  },
+  {
+    "question": "A verifiable service agreement in Boundless is described as:",
+    "options": ["a) A one-time spot market transaction.", "b) A binding commitment between a prover and a requestor outlining terms for verifiable work.", "c) A smart contract that automatically fulfills all future proof requests.", "d) A mechanism for requesting data availability from provers."],
+    "answer": "b"
+  }
+]
